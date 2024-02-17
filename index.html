@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- etablir le lien entre style.css et index.html -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Exo_Idem</title>
+  </head>
+  <body>
+    <form id="form">
+      <div class="form-header"> <h1 id="myform">Formulaire de connection</h1></div>
+      <label>Identifiant : </label>
+      <input
+        type="text"
+        class="identifiant"
+        placeholder="Email adress or user ID "
+      />
+      <p class="erreur-identifiant"></p>
+      <br />
+      <label>Password : </label>
+      <input type="text" class="password" placeholder="  * * * * * " />
+      <p class="invalid-password"></p>
+      <br />
+      <br />
+      <button type="submit" id="valider">VALIDER</button>
+      <h1 id="validation"></h1>
+    </form>
+    <!-- etabli le lien entre script.js et index.html -->
+    <script src="./script.js"></script>
+  </body>
+</html>

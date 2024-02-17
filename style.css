@@ -1,0 +1,32 @@
+.erreur-identifiant,
+.invalid-password {
+    color: red;
+}
+#validation {
+    color: green;
+    text-align: center;
+    margin-top: 70px;
+
+}
+#form {
+    width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid;
+  border-width: 2px;
+  border-radius: 35px;
+  padding: 20px;
+  margin-top: 10px;
+}
+#myform {
+    text-align: center;    
+}
+.form-header {
+    height: 120px;
+}
+#valider {
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
